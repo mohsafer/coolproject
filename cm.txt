@@ -1,0 +1,54 @@
+TEST
+
+sudo apt install python3-pip
+sudo apt install ubuntu-drivers
+ubuntu-drivers
+sudo apt install ubuntu-drivers-common
+ubuntu-drivers
+ubuntu-drivers devices
+ubuntu-drivers devices --gpgpu
+ubuntu-drivers  --gpgpu
+nvcc --version
+nvidia-detector
+apt install nvidia-cuda-toolkit
+sudo apt install nvidia-cuda-toolkit
+nvidia-smi
+apt install nvidia-driver-550-server
+sudo apt install nvidia-driver-550-server
+sudo apt install nvidia-utils-550-server
+nvidia-smi
+sudo ubuntu-drivers install --gpgpu
+nvcc --version
+nvidia-smi
+nvidia-detector
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu115
+pip3 install pandas matplotlib scikit-learn
+git clone https://github.com/mohsafer/Anomaly-Transformer.git
+cd Anomaly-Transformer/
+bash  scripts/PSM.sh
+sudo reboot
+echo $path
+echo $PATH
+export PATH=/users/mosafer/.local/bin:$PATH
+echo $PATH
+nvidia-sm
+nvidia-smi
+sudo apt install nvidia-utils-550-server
+nvidia-smi
+python main.py --anormly_ratio 1 --num_epochs 3    --batch_size 256  --mode train --dataset PSM  --data_path dataset/PSM --input_c 25    --output_c 25
+cd Anomaly-Transformer/
+python main.py --anormly_ratio 1 --num_epochs 3    --batch_size 256  --mode train --dataset PSM  --data_path dataset/PSM --input_c 25    --output_c 25
+nvcc --version
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu115
+sudo apt install nvidia-driver-550
+cat /proc/driver/nvidia/version
+sudo ubuntu-drivers list --gpgpu
+sudo ubuntu-drivers install --gpgpu nvidia:550-server
+sudo ubuntu-drivers install --gpgpu
+bash scripts/PSM.sh
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu115
+python main.py --anormly_ratio 1 --num_epochs 3    --batch_size 256  --mode train --dataset PSM  --data_path dataset/PSM --input_c 25    --output_c 25
+sudo apt install linux-modules-nvidia
+sudo apt install linux-modules-nvidia-550
+sudo apt install linux-modules-nvidia-550-generic
+sudo apt-cache policy linux-modules-nvidia-550-$(uname -r)
